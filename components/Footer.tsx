@@ -10,7 +10,7 @@ export default function Footer({menuList, companyTitle}: {menuList: IMenuItem[],
 			<div className='container'>
 				<div className='row'>
 					<div className='page-footer__item col-sm-12 col-md-6 col-lg-3 order-lg-1 order-md-3 order-4'>
-						<FooterAbout companyTitle={companyTitle}/>
+						<FooterAbout companyTitle='Frog Apparel'/>
 					</div>
 					<div className='page-footer__item col-sm-12 col-md-6 col-lg-3 order-lg-2 order-md-1 order-1'>
 						<FooterMenu menuList={menuList} />
